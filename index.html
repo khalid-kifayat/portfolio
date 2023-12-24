@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- bootstrap css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- style css link  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+<body  data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+
+  
+    <!-- navbar  -->
+<header class="header-wrapper">
+    <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./imgs/logo.png" class="logo1" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fas fa-stream navbar-toggler-icon" style="color: #b0b6bf;"></i>
+      </button>
+
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav menu-navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">DevOps & Cloud</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Data Science</a>
+          </li>
+          <li class="nav-item mt-3  mt-lg-0">
+            <a class="main-btn" href="#contact">Hire me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   
+</header>
+
+ <!-- banner section  -->
+ <section id="home" class="banner_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center text-md-start">
+                <h1>I'm khalid kifayat <br><span> Cloud/DevOps Engg & Ai-Chatbot Developer</span><br>based in Pakistan.</h1>
+                <div class="mt-4">
+                    <a class="main-btn" href="#contact">Let's Connect</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!-- About  section  -->
+ <section id="about" class="about_wrapper">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-lg-5 mb-4 mb-lg-0">
+        <img src="./imgs/me.png" class="img-fluid rounded-2"  alt="about" >
+      </div>
+      <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+        <div class="my-3 mb-lg-0">
+          
+          <h3>About me</h3>
+          <p>"Hello, I'm Khalid kifayat, Skillful Tech Engineer with working experience in Cloud computing (AWS, GCP), Infrastructure deployment, testing, monitoring, scripting,         
+            automation, Version control, documentation & system's support. <br><br>
+            I also work as a proficient AI-chatbot developer in Google Dialogflow & Amazon Alexa with a keen eye for design, coding finesse, and a knack for creating intelligent chatbots using Rule based and Generative AI mechanism's, I bring a holistic approach to crafting dynamic and user-centric digital solutions."</p>
+        </div>
+         <!-- tabs  -->
+        <div class="pt-4"><ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab" role="tablist">
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-skills-tab" data-bs-toggle="pill" data-bs-target="#pills-skills" type="button" role="tab" aria-controls="pills-skills" aria-selected="true">Main Skills</button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-experience-tab" data-bs-toggle="pill" data-bs-target="#pills-experience" type="button" role="tab" aria-controls="pills-experience" aria-selected="false">DevOps</button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-Projects-tab" data-bs-toggle="pill" data-bs-target="#pills-Projects" type="button" role="tab" aria-controls="pills-Projects" aria-selected="false">AI-Chatbots</button>
+          </li>
+          
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill" data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education" aria-selected="false">Education</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-skills" role="tabpanel" aria-labelledby="pills-skills-tab">
+            <div class="single-progress">
+              <h6>Cloud/DevOps(AWS,GCP)</h6>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <span class="label">80%</span>
+            </div>
+            <div class="single-progress">
+              <h6>Linux Ubuntu, Docker, Kubernetes, CICD Pipelines</h6>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <span class="label">85%</span>
+            </div>    
+            <div class="single-progress">
+              <h6>AI Chatbot</h6>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <span class="label">75%</span>
+            </div>  
+            <div class="single-progress">
+              <h6>Open-AI, Streamlit, Google Colab</h6>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <span class="label">65%</span>
+            </div>  
+            <div class="single-progress">
+              <h6>Ai Web-Scraping</h6>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <span class="label">80%</span>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="pills-Projects" role="tabpanel" aria-labelledby="pills-Projects-tab">
+            <ul class="text-start- ps-0">
+              <li>
+                <a href="https://chatbot-saylani.netlify.app/">https://chatbot-saylani.netlify.app/
+                  <br><span>(SMIT Chatbot) 2023</span></a>
+              </li>
+              <li>
+                <a href="https://daraz-ai.netlify.app/">https://daraz-ai.netlify.app/
+                  <br><span>(Daraz Chatbot) 2023</span></a>
+              </li>
+                            <li>
+                <a href="https://form-saylani.netlify.app"> https://form-saylani.netlify.app/
+                  <br><span>(Registration Form) 2023</span></a>
+              </li>
+              <li>
+                <a href="https://nlprocess.netlify.app/">https://nlprocess.netlify.app/
+                  <br><span>(NLP Website) 2023</span></a>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">
+            <ul class="text-start- ps-0">
+              <li>
+                  <span>* CICD Pipeline for Java Application to deploy on Kubernetes Cluster using Jenkins. 2023</span></a>
+              </li>
+              <li>
+                  <span>* Automated Cl/CD Pipeline for Django Web Application using AWS, Docker, Jenkins
+                    and Kubernetes. 2023</span></a>
+              </li>
+              <li>
+                  <span>* Assimilation of VPC, NAT, API GATEWAY, Route53, Load Balancers & AWS Lambda
+                    along with DATA Migration from S3 to Glacier. 2023</span></a>
+              </li>
+              <li>
+                  <span>* Manage, Secure, Validate, Monitor & Prevent Misconfiguration of Kubernetes. 2023</span></a>
+              </li>
+              <li>
+                <span>* MongoExpress/MongoDB Application deployment using Kubernetes. 2023</span></a>
+              </li>
+              <li>
+                <span>* Deploying App using GiT-Maven-Jenkins & Tomcat Server. 2023</span></a>
+              </li>
+            </ul>
+          </div>
+          
+
+          <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+            <ul class="text-start- ps-0">
+              <li>
+                <h5>Generative AI & Chatbot Development</h5>
+                  <span>Saylani Mass IT Training</span> Sept 2023
+              </li>
+              <li>
+                <h5>Master's in Computer Sciences</h5>
+                  <span>Iqra University Karachi</span></a> 2004
+              </li>
+              <li>
+                <h5>BSC in Computer Sciences</h5>
+                  <span>University of Peshawar</span></a> 2001
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+ </section>
+
+<!-- services  -->
+<section id="services" class="services_wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center mb-4">
+        <span class="subtitle">What I Can Deliver </span>
+        <h2>Provided Services</h2>
+        <p>With a strong foundation in Cloud DevOps and AI Chatbot Development, I am eager to work, contribute<br class="d-none d-md-block"> and to innovative projects and collaborate with like-minded professionals.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 mb-4">
+        <div class="card">
+          <div class="card-body text-md-start text-center">
+            <img src="./imgs/cloud.png" alt="services" class="img-fluid mb-6">
+            <h3>Cloud DevOps</h3>
+            <p>I excel in deploying organisational apps securely on AWS & GCP cloud managed services while using linux, docker & kubernetes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-4">
+        <div class="card">
+          <div class="card-body text-md-start text-center">
+            <img src="./imgs/bot.png" alt="services" class="img-fluid mb-6">
+            <h3>Generative AI - Chatbot Development</h3>
+            <p>I specialize in creating cutting-edge chatbots that engage incoming users and streamline processes with AI-driven solutions.</p>
+          </div>
+        </div>
+      </div>
+
+  <center>
+  <div class="col-lg-6 col-md-6 mb-4">
+    <div class="card">
+      <div class="card-body text-md-start text-center">
+        <img src="./imgs/javascript.png" alt="services" class="img-fluid mb-6">
+        <h3>JavaScript</h3>
+        <p>JavaScript is my playground for creating interactive, dynamic cloud and web experiences.</p>
+      </div>
+    </div>
+  </div>
+</center>
+</div>
+  </div>
+</section>
+
+<!-- Portfolio  -->
+
+<section id="portfolio" class="portfolio_wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center mb-4" >
+        <h2>DevOps & Cloud</h2>
+        <p>Step by step explanatory tutorial videos on DevOps, Cloud Computing, Google Cloud, Amazon AWS, Linux Administration etc<br class="d-none d-md-block"> & Earned 42 Google Cloud Skill Badges.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 text-center mb-5">
+        <div class="card p-0">
+          <span style="background-image: url('./imgs/mobile.JPG');"></span>
+          
+        </div>
+      </div>
+      <div class="col-sm-6 text-center mb-5">
+        <div class="card p-0">
+          <span style="background-image: url('./imgs/gc-badges.JPG');"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Data-Science  -->
+<section id="services" class="services_wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center mb-4">
+
+        <h2>Projects - Data Science</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 mb-4">
+        <div class="card">
+          <div class="card-body text-md-start text-center">
+            <img src="./imgs/csv.png" alt="robot" class="img-fluid mb-6">
+            <h3>Analyze Any CSV File Using Langchain, LLM, OpenAI with Streamlit App</h3>
+            <p>Using python, build a chatbot agent that uses ChatGPT's LLM to accurate answer questions about an uploaded CSV files.
+              With LangChain's framework, we can develop LLM powered applications that are aware of data and can interact with their environment.
+            </p>
+            <span class="subtitle">
+                <a href="https://github.com/khalid-kifayat/myown-chatgpt-carsales-analysis.git">github.com/khalid-kifayat/myown-chatgpt-carsales-analysis.git</a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-4">
+        <div class="card">
+          <div class="card-body text-md-start text-center">
+            <img src="./imgs/chainlit.png" alt="services" class="img-fluid mb-6">
+            <h3>Chainlit | Langchain: Ai-Chatbot</h3>
+            <p> PDF-ChatBot which display sources used to generate an Answer. Explored the Realm of Natural Language Processing (NLP) with Langchain and Chainlit for Analyzing PDFs and getting accurate answers.
+            </p>
+            <span class="subtitle">
+              <a href="https://github.com/khalid-kifayat/chainlit-pdf-chatbot.git">github.com/khalid-kifayat/chainlit-pdf-chatbot.git</a>
+          </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 mb-4">
+        <div class="card">
+          <div class="card-body text-md-start text-center">
+            <img src="./imgs/mc.png" class="test">
+            <h3>Multi-ChatCSV Streamlit App</h3>
+            <p> Analyze Multiple CSV files with PandasAI and OpenAI. PandasAI is a Python library that adds Generative AI capabilities to pandas, the popular data analysis and manipulation tool designed to use in conjunction with pandas.
+            </p>
+            <span class="subtitle">
+              <a href="https://github.com/khalid-kifayat/myown-multichat-csv-pandasai.git">github.com/khalid-kifayat/myown-multichat-csv-pandasai.git</a>
+          </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-4">
+        <div class="card">
+          <div class="card-body text-md-start text-center">
+            <img src="./imgs/invoice.png" class="test">
+            <h3>Invoice Entity Extractor with Llama2</h3>
+            <p>Handling invoices inaccuracies by using LangChain NLP processing features of along with llama2 & Streamlit, we have the ability to optimize the extraction of important details from invoices.
+            </p>
+            <span class="subtitle">
+              <a href="https://github.com/khalid-kifayat/Invoice-entity-extractor-Llama2-streamlit.git">github.com/khalid-kifayat/Invoice-entity-extractor-Llama2-streamlit.git</a>
+          </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-4">
+        <div class="card">
+          <div class="card-body text-md-start text-center">
+            <img src="./imgs/smile.png" class="test">
+            <img src="./imgs/smile1.png" class="test">
+            <h3>Sentiment Analyzer Chatbot with Langchain using Replicate API</h3>
+            <p>Sentiment analysis using Transformers, Hugging Face models & Streamlit. Set up a text classification pipeline, and access models via Replicate API.
+            </p>
+            <span class="subtitle">
+              <a href="https://github.com/khalid-kifayat/sentiment-analyzer-llama2-chatbot.git">github.com/khalid-kifayat/sentiment-analyzer-llama2-chatbot.git</a>
+          </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-4">
+        <div class="card">
+          <div class="card-body text-md-start text-center">
+            <img src="./imgs/cr.png" class="test">
+            <h3>Customer Responce Generator Chatbot using Llama2</h3>
+            <p>creating Customer Response Generator chatbot using Llama2+Langchain, Streamlit, Replicate as the framework for building a seamless customer interaction system.
+            </p>
+            <span class="subtitle">
+              <a href="https://github.com/khalid-kifayat/customer-response-chatbot.git">github.com/khalid-kifayat/customer-response-chatbot.git</a>
+          </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-4">
+        <div class="card">
+          <div class="card-body text-md-start text-center">
+            <img src="./imgs/qa.jfif.png" class="test">
+            <h3>AI Smart Exam Prep - Question & Answer Application using llama2</h3>
+            <p>Automated Q&A Generation App using Large Language Model (LLM) known as Llama2-70B-Chat Model with Replicate on the backend.
+            </p>
+            <span class="subtitle">
+              <a href="https://github.com/khalid-kifayat/Smart-Exam-QA-App-llama2.git">github.com/khalid-kifayat/Smart-Exam-QA-App-llama2.git</a>
+          </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-4">
+        <div class="card">
+          <div class="card-body text-md-start text-center">
+            <img src="./imgs/rob.PNG" class="test">
+            <h3>Diet workout recommendation application using Langchain llama2</h3>
+            <p>Diet Recommendation System using Python, Langchain integration, OpenAI API and the innovative Llama2 model to revolutionize your fitness journey.
+            </p>
+            <span class="subtitle">
+              <a href="https://github.com/khalid-kifayat/diet-workout-recomm-app-llama2.git">| GitHub URL |</a>
+              <a href="https://beingkhalid-diet-app.streamlit.app/">| App URL (use api-key) | </a>
+              <a href="https://drive.google.com/file/d/1tWAiem4vwcyexPT-D2HFD5u9aa84rRoK/view">| Project Mp4 video |</a>
+
+            </span>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-4">
+        <div class="card">
+          <div class="card-body text-md-start text-center">
+            <img src="./imgs/int.PNG" class="test">
+            <h3>using Mistral-7B Model - Job Interview Preparation AiChatbot </h3>
+            <p>Job Interview Prep Chatbot using Mistral-7b-Instruct and Sentence Transformers powered by Langchain & Streamlit, can runs efficiently on a decent CPU machine with minimum 12GB RAM.
+            </p>
+            <span class="subtitle">
+              <a href="https://github.com/khalid-kifayat/Job-Int-Prep-AiChatbot-Mistral7B.git">github.com/khalid-kifayat/Job-Int-Prep-AiChatbot-Mistral7B.git</a>
+          </span>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+</section>
+
+<!-- Contact  -->
+<section id="contact" class="contact_wrapper">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+     <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+        <span class="subtitle">To discuss your Cloud DevOPs or Ai-Chatbot project</span>
+      <h2>Lets Connect</h2>
+      <div class="row call_details mb-4">
+        <label class="col-sm-3 col-lg-4">Call/WhatsApp:</label>
+
+        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+          <a href="#">+92 345 9138794</a>
+        </div>
+
+        <label class="col-sm-3 col-lg-4">Email:</label>
+        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+          <a href="mailto:khalid.kifayat@gmail.com">khalid.kifayat@gmail.com</a>
+        </div>
+
+        <div><label>OR Schedule below:</label></div>
+      </div>
+
+<!-- Calendly inline widget begin -->
+      <div class="calendly-inline-widget" data-url="https://calendly.com/khalid_kifayat/30-minutes-call?background_color=121212&text_color=f7f3f3" style="min-width:320px;height:700px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
+      
+
+    <span id="msg"></span>
+     </div>
+
+
+     
+     <div class="col-lg-6 order-1 order-lg-1 mb-lg-0">
+      <img src="./imgs/123.jfif.png" alt="Contact" class="img-fluid">
+     </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- footer  -->
+<section id="contact" class="footer_wrapper mt-3 mt-md-0">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-4 col-md-6 text-center text-md-start">
+        <div class="footer-logo mb-3 mb-md-0">
+          <img src="./imgs/logo.png" class="img-fluid" alt="img">
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <ul class="list-unstyled d-flex justify-content-center  justify-content-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+          <h2><li><a href="https://github.com/khalid-kifayat"><i class="fab fa-github"></i></a></li></h2>
+          <h2><li><a href="https://www.cloudskillsboost.google/public_profiles/5daefb3e-a894-4f9a-be21-378ab0e2f86c"><i class="fab fa-waze"></i></a></li></h2>
+          <h2><li><a href="https://www.linkedin.com/in/khalid-kifayat/"><i class="fab fa-linkedin"></i></a></li></h2>
+          <h2><li><a href="https://cloud-devops-blog.hashnode.dev/"><i class="fa-solid fa-marker"></i></a></li></h2>
+          <h2><li><a href="https://www.youtube.com/@dwkk/videos"><i class="fab fa-youtube"></i></a></li></h2>
+          <h2><li><a href="https://linktr.ee/khalid.kifayat"><i class="fab fa-wpforms"></i></a></li></h2>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <div class="copyright-text text-lg-start text-center mb-3 mb-lg-3"> 
+                 <p class="mb-0">Copyright &copy; 2023 All Rights Reserved</p>
+                 
+                 <p class="mb-0">Created by Khalid Kifayat</p>
+                </div>
+              </div>
+    </div>
+  </div>
+
+</section>
+
+
+</body>
+</html>
