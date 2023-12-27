@@ -73,7 +73,7 @@ section{
     font-weight: 500;
     font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: 9px;
+    letter-spacing: 7px;
     text-decoration: none;
 }
 .main-btn:hover{
@@ -154,7 +154,7 @@ button{
     transition: all .2s linear;
 }
 .header-wrapper .navbar-brand img{
-    max-width: 270px;
+    max-width: 230px;
     height: auto;
 }
 .header-wrapper.navbar-toggler{
@@ -222,7 +222,7 @@ button{
 
 /* About */
 .about_wrapper ul.nav-pills{
-    border: 3px solid var(--gray-color);
+    border: 1px solid var(--gray-color);
     border-radius: 50px;
 }
 .about_wrapper ul li .nav-link{
