@@ -1,0 +1,4 @@
+https://beingkhalid.com/index.html
+
+User-agent: *
+Disallow:
