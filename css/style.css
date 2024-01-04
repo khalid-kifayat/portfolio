@@ -71,8 +71,8 @@ section{
     border: 2px solid var(--gray-color);
     color: var(--text-gray);
     font-weight: 500;
-    font-size: 14px;
-    text-transform: uppercase;
+    font-size: 10px;
+    text-transform: middlecase;
     letter-spacing: 1px;
     text-decoration: none;
 }
@@ -154,7 +154,7 @@ button{
     transition: all .2s linear;
 }
 .header-wrapper .navbar-brand img{
-    max-width: 230px;
+    max-width: 200px;
     height: auto;
 }
 .header-wrapper.navbar-toggler{
@@ -217,7 +217,7 @@ button{
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    padding: 200px 0 100px 0;
+    padding: 250px 0 100px 0;
 }
 
 /* About */
@@ -369,15 +369,15 @@ box-shadow: 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
 }
 .footer_wrapper .copyright-text p{
     font-size: 10px;
-    line-height: 5px;
+    line-height: 15px;
 }
 .footer_wrapper .copyright-text a{
     color: var(--primary-color);
 }
 
 .logo1{
-    height: 200px;
-    width: 400px;
+    height: 100px;
+    width: 180px;
 }
 
 
